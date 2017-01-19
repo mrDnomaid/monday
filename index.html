@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>is it monday</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <style>
+        h1 {
+            width: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 15vw;
+            font-family: 'Rubik Mono One', sans-serif;
+        }
+    </style>
+</head>
+
+<body onload="isitmonday();">
+    <script>
+        function isitmonday() {
+            var date = new Date();
+            var day = date.getDay()
+            console.log(date);
+            console.log(day);
+            if (day == 1) {
+                document.getElementById('answer').innerHTML = "YES";
+            } else {
+                document.getElementById('answer').innerHTML = "NO";
+            }
+        }
+    </script>
+    <h1 id="answer">MAYBE</h1>
+</body>
+
+</html>
