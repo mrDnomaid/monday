@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15vw;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #111;
+}
